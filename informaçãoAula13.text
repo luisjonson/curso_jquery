@@ -1,0 +1,8 @@
+Manipulando DOM Inserção
+
+append();  //desntro na ultima posição
+prepend(); //desntro na primeira posição
+after();   //fora e pós o elemento
+before();  //fora e antes do elemento
+wrap();    //envolve com ooutro elemanto
+colne();   //faz uma cópia do elemanto
