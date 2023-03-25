@@ -1,0 +1,13 @@
+.destaque{
+    background: orange;
+    width:50%;
+    height:30%;
+    border:2px solid black;
+    padding:1px;
+}
+p{
+    text-align: center;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em
+
+}
