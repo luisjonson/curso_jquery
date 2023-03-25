@@ -16,6 +16,7 @@ $(document).ready(function(){
         $("img").removeAttr("src").removeAttr("alt").removeAttr("title");
         */
         //alert($("img").hasClass("destaque"));
+        //remove se a classe já estiver inserida se não a class é inserida.
         $("img").toggleClass("destaque");
 
     });
