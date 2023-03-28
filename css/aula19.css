@@ -1,0 +1,17 @@
+.destaque {
+    background: orange;
+    position:relative;
+    left:37%;
+    top:29%;
+    width:320px;
+    height:270px;
+  }
+p{
+    text-align: center;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+
+button{
+    margin: 3px;
+}
