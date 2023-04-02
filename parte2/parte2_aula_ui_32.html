@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>JQuery Core - Introdução a JQueryUI</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' href='css/smoothness/jquery-ui-1.9.2.custom.css'>
+    <script type="text/javascript" src='js/jquery-1.8.3.js' > </script>
+    <script type="text/javascript" src='js/jquery-ui-1.9.2.custom.min.js' > </script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#accordion").accordion({
+                collapsible:true
+            });
+        });
+    </script>
+</head>
+<body>
+    <div id="accordion">
+        <h3><a href="#">Section 1</a></h3>
+        <div>
+            <p>
+                A tag P é uma tag HTML que indica um 
+                parágrafo. Ela é usada para indicar 
+                o início e o fim de um bloco de texto
+                que forma um parágrafo. Quando usada corretamente,
+                essa tag permite que os navegadores da web exibam
+                o conteúdo de uma página da web de forma estruturada
+                e organizada, facilitando a leitura e a compreensão do 
+                conteúdo pelo usuário.
+            </p>
+        </div>
+        <h3><a href="#">Section 2</a></h3>
+        <div >
+            <p>
+                <span>
+                    A tag Span é uma tag HTML usada para 
+                    aplicar estilos ou outras propriedades 
+                    a uma parte específica do texto dentro 
+                    de um elemento maior. Ao contrário da 
+                    tag P, que é usada para delimitar um 
+                    parágrafo inteiro, a tag Span é usada 
+                    para delimitar uma parte menor de um 
+                    texto, como uma palavra ou uma frase.
+                </span>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
