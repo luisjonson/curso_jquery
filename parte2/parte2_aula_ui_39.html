@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>JQuery Core - Introdução a JQueryUI</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' href='css/smoothness/jquery-ui-1.9.2.custom.css'>
+    <script type="text/javascript" src='js/jquery-1.8.3.js' > </script>
+    <script type="text/javascript" src='js/jquery-ui-1.9.2.custom.min.js' > </script>
+    
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#catalogo li").draggable({
+                helper: "clone"
+            });
+            $("#carrinho ul").droppable({
+                drop:function(e, ui){
+                    $(this).append($("<li/>").text(ui.draggable.text()));
+                    $(this).find(".mensagem").remove();
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+    <div id="catalogo">
+       <h2>Catalogo</h2>
+       <ul>
+            <li>camisa</li>
+            <li>meia</li>
+            <li>Gravata</li>
+            <li>Terno</li>
+            <li>Sapato</li>
+       </ul>
+    </div>
+    <div id="carrinho">
+       <h2>Carrinho</h2>
+        <ul>
+            <li class="mensagem">Compras...</li>
+        </ul>
+    </div>
+</body>
+</html>
