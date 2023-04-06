@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>JQuery Core - Introdução a JQueryUI</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' href='css/smoothness/jquery-ui-1.9.2.custom.css'>
+    <script type="text/javascript" src='js/jquery-1.8.3.js' > </script>
+    <script type="text/javascript" src='js/jquery-ui-1.9.2.custom.min.js' > </script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#tabs").tabs({
+
+            });
+        });
+    </script>
+</head>
+<body>
+    
+    <div id="tabs">
+        <ul>
+            <li><a href="#um">Nunc tincidunt</a></li>
+            <li><a href="#dois">Proin dolor</a></li>
+            <li><a href="#tres">Aenean lacinia</a></li>
+        </ul>
+        <div id="um">
+            <p>Olá, <strong>amigos!</strong></p>
+            <p>Espero que estejam <em>bem</em> hoje.</p>
+            <p>Hoje é <a href="https://pt.wikipedia.org/wiki/05_de_Abril">5 de abril</a>, um dia especial!</p>
+            <p>Lembrem-se de <u>sempre</u> usar as tags HTML corretamente!</p>
+            Neste exemplo, usei as seguintes tags HTML:
+
+            <p> para criar parágrafos
+            <strong> para criar texto em negrito
+            <em> para criar texto em itálico
+            <a> para criar um link, com o atributo href especificando o URL do link
+            <u> para criar texto sublinhado
+        </div>
+        <div id="dois">
+            <h1>Bem-vindos ao meu site!</h1>
+            <p>Este é um <strong>site pessoal</strong> onde compartilho meus pensamentos, ideias e projetos.</p>
+            <p>Para saber mais sobre mim, visite a página <a href="/sobre">Sobre</a>.</p>
+            <h2>Meus projetos recentes:</h2>
+            <ul>
+            <li><a href="/projeto-1">Projeto 1</a></li>
+            <li><a href="/projeto-2">Projeto 2</a></li>
+            <li><a href="/projeto-3">Projeto 3</a></li>
+            </ul>
+        </div>
+        <div id="tres">
+            <h1>Receita de bolo de chocolate</h1>
+            <p>Ingredientes:</p>
+            <ul>
+                <li>2 xícaras de açúcar</li>
+                <li>1 e 3/4 xícaras de farinha de trigo</li>
+                <li>3/4 xícara de cacau em pó</li>
+                <li>1 e 1/2 colher de chá de bicarbonato de sódio</li>
+                <li>1 colher de chá de sal</li>
+                <li>2 ovos</li>
+                <li>1 xícara de leite</li>
+                <li>1/2 xícara de óleo</li>
+                <li>2 colheres de chá de essência de baunilha</li>
+                <li>1 xícara de água quente</li>
+            </ul>
+            <p>Modo de preparo:</p>
+            <ol>
+                <li>Pré-aqueça o forno a 180 graus Celsius.</li>
+                <li>Em uma tigela grande, misture o açúcar, a farinha de trigo, o cacau em pó, o bicarbonato de sódio e o sal.</li>
+                <li>Em outra tigela, misture os ovos, o leite, o óleo e a essência de baunilha.</li>
+                <li>Adicione a mistura líquida aos ingredientes secos e misture bem.</li>
+                <li>Adicione a água quente e misture novamente até ficar homogêneo.</li>
+                <li>Despeje a massa em uma forma untada e enfarinhada.</li>
+                <li>Asse por cerca de 30-35 minutos ou até que um palito inserido no centro do bolo saia limpo.</li>
+                <li>Deixe esfriar antes de servir.</li>
+            </ol>
+        </div>
+    </div>
+</body>
+</html>
